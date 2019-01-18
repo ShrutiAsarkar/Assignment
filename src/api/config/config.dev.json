@@ -1,0 +1,41 @@
+{
+  "username": "root",
+  "password": "",
+  "database": "payroll_db",
+  "host": "localhost",
+  "dialect": "mysql",
+  "operatorsAliases": false,
+  "sequelize_config": {
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "Roles":{
+    "User":{
+      "Employer":0,
+      "Employee":1
+    },
+    "Auth_req":{
+      "Employer_login":0,
+      "Employee_login":1,
+      "Employer_signup":2,
+      "Employee_signup":3,
+      "Employee_invite":4,
+      "Employer_register":5,
+      "Employee_register":6
+    }
+  },
+  "Frontend_url":"http://localhost:3000",
+  "Backend_url":"http://localhost:5000",
+  "Frontend_host":"localhost",
+  "Frontend_port":"3000",
+  "Backend_host":"localhost",
+  "Backend_port":"5000"
+}
